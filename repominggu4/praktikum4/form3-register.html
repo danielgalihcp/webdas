@@ -1,0 +1,52 @@
+<html>
+
+<head>
+	<title>Register</title>
+</head>
+
+<body>
+	<form action="contact.php" method="POST">
+        <fieldset>
+            <legend>Register</legend>
+            <p>
+                <label>Name :</label>
+                <input type="text" name="name" placeholder="Your Full Name..."/>
+            </p>
+            <p>
+                <label>Username :</label>
+                <input type="text" name="username" placeholder="Username..."/>
+            </p>
+            <p>
+                <label>Email :</label>
+                <input type="email" name="email" placeholder="Your Email..."/>
+            </p>
+            <p>
+                <label>Password :</label>
+                <input type="password" name="password" placeholder="Password..."/>
+            </p>
+            <p>
+                <label>Gender :</label>
+                <label><input type="radio" name="gender" value="male"/>Male</label>
+                <label><input type="radio" name="gender" value="female">Female</label>
+            </p>
+            <p>
+                <label>Religion :</label>
+                <select nama="religion">
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Budha">Budha</option>
+                </select>
+            </p>
+            <p>
+                <label>Biography</label>
+                <textarea name="biography"></textarea>
+            </p>
+            <p>
+                <input type="submit" name="submit" value="Register"/>
+            </p>
+        </fieldset>
+    </form>
+</body>
+
+</html>
